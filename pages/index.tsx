@@ -193,7 +193,7 @@ const Home = ({ tabIndex }: InferGetServerSidePropsType<typeof getServerSideProp
           <CustomConnectionTab label="Custom" />
         </Tabs>
       </main>
-      <footer data-lk-theme="default">
+      {/* <footer data-lk-theme="default">
         Hosted on{' '}
         <a href="https://livekit.io/cloud?ref=meet" rel="noopener">
           LiveKit Cloud
@@ -203,7 +203,7 @@ const Home = ({ tabIndex }: InferGetServerSidePropsType<typeof getServerSideProp
           GitHub
         </a>
         .
-      </footer>
+      </footer> */}
     </>
   );
 };
